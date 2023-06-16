@@ -1,0 +1,64 @@
+
+        h1{
+            color:aliceblue;
+            text-align: center;
+        }
+        body{
+           background-color: black;
+        }
+        .container{
+            
+            max-width: 500px;
+            margin: 0vh auto 0 auto;
+            box-shadow: 0px 0px 43px 17px rgb(26, 26, 26);
+            border:10px solid rgb(41, 41, 42);
+            border-radius: 5px;
+
+        }
+        #display{
+            text-align: right;
+            margin:5px;
+            border: 8px solid grey;
+             color:white;
+            text-align: right;
+            height: 70px;
+            line-height: 70px;
+            padding: 32px 16px;
+            font-size: 25px;
+            
+        }
+        .button{
+            
+            color:white;
+            display:grid;
+            border-bottom: 1px solid rgb(233, 178, 178);
+            border-left: 1px solid grey;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+        }
+        .button > div{
+            border-top: 1px solid  grey;
+            border-right:1px solid grey;
+            
+        }
+        .buttons{
+            margin:2px;
+            background-image: linear-gradient(black, grey);
+            border: 3px solid rgb(94, 89, 89);
+            border-radius: 3px;
+            line-height: 100px;
+            text-align: center;
+            font-size:  30px;
+            cursor: pointer;
+        }
+
+        .buttons:hover{
+            background-image: linear-gradient(white,white);
+            color:black;
+            transition: 0.5s ease-in-out;
+        }
+
+        #equals{
+            background-color: grey;
+        }
+
